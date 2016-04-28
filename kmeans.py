@@ -1,7 +1,8 @@
 #!/usr/bin/python
-import csv,math,random,json
+import csv,math,random
 from collections import defaultdict
 import numpy as np
+import json
 import matplotlib.pyplot as plt
 def calculateCentroid(pts):
 		numPoints = len(pts)
